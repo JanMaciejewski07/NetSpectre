@@ -1,0 +1,34 @@
+{
+    "TargetIp": "127.0.0.1",
+    "Target Port Range": [
+        21,
+        80,
+        443,
+        8080
+    ],
+    "Started Scanning": "2026-11-17 17:57:44.295454",
+    "Ended Scanning": "2026-11-17 17:57:52.473123",
+    "Duration": "0:00:08.177669",
+    "Results": [
+        {
+            "port": 21,
+            "status": "Declined",
+            "comment": "[WinError 10061] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia"
+        },
+        {
+            "port": 80,
+            "status": "Declined",
+            "comment": "[WinError 10061] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia"
+        },
+        {
+            "port": 443,
+            "status": "Declined",
+            "comment": "[WinError 10061] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia"
+        },
+        {
+            "port": 8080,
+            "status": "Declined",
+            "comment": "[WinError 10061] Nie można nawiązać połączenia, ponieważ komputer docelowy aktywnie go odmawia"
+        }
+    ]
+}
